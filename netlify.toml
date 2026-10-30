@@ -1,4 +1,9 @@
 [build]
   # This static site does not require a build command.
   command = ""
-  publish = "."
+  publish = "public"
+
+[[redirects]]
+  from = "/"
+  to = "/logistics/"
+  status = 302
